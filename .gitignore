@@ -1,0 +1,33 @@
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+venv/
+ENV/
+env/
+
+# Arduino
+build/
+*.hex
+*.elf
+*.bin
+*.map
+*.o
+
+# Security / Credentials (Do not push these!)
+firebase_credentials.json
+
+# If you use dataset that is too large or you don't wanna publish
+# IoTPond10.csv
